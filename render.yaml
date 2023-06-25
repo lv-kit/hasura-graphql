@@ -1,7 +1,7 @@
 services:
 - type: web
   name: hasura
-  plan: standard
+  plan: free
   env: docker
   autoDeploy: false
   healthCheckPath: /healthz
@@ -21,3 +21,4 @@ services:
 #    generateValue: true
 databases:
 - name: hasura
+- plan: free

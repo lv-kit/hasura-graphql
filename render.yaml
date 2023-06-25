@@ -21,4 +21,4 @@ services:
 #    generateValue: true
 databases:
 - name: hasura
-- plan: free
+  plan: free
